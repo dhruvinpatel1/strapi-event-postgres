@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_footer_sponsers",
+  "info": {
+    "displayName": "Sponser_slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    }
+  }
+}

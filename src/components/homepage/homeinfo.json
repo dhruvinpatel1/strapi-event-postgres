@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_homepage_homeinfos",
+  "info": {
+    "displayName": "homeinfo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title1": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "left_content": {
+      "type": "richtext"
+    },
+    "right_content": {
+      "type": "richtext"
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_homepage_news_slider_imgs",
+  "info": {
+    "displayName": "news_sliderImg",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    },
+    "posted_date": {
+      "type": "date"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

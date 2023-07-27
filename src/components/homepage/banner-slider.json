@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_homepage_banner_sliders",
+  "info": {
+    "displayName": "BannerSlider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bannerimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bannerinfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.bannerinfo"
+    }
+  }
+}

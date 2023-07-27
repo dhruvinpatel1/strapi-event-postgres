@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_top_footers",
+  "info": {
+    "displayName": "TopFooter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SponserSlider": {
+      "displayName": "Sponser",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.sponser"
+    }
+  }
+}

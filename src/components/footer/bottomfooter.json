@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_footer_bottomfooters",
+  "info": {
+    "displayName": "middlefooter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "left": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.content"
+    },
+    "middle": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "right": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.content"
+    }
+  }
+}

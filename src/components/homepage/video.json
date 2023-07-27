@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_homepage_videos",
+  "info": {
+    "displayName": "Video"
+  },
+  "options": {},
+  "attributes": {
+    "title1": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "video_link": {
+      "type": "string"
+    }
+  }
+}

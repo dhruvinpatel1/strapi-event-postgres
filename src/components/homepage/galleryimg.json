@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_homepage_galleryimgs",
+  "info": {
+    "displayName": "galleryimg",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button_label": {
+      "type": "string"
+    }
+  }
+}

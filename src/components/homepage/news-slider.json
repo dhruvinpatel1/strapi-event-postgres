@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_homepage_news_sliders",
+  "info": {
+    "displayName": "News_Slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title1": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "New_Slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.news-slider-img"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "top_menus",
+  "info": {
+    "singularName": "top-menu",
+    "pluralName": "top-menus",
+    "displayName": "Top-Menu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "menu.dropdown",
+        "menu.link"
+      ]
+    }
+  }
+}
