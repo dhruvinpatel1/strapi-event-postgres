@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact-us",
     "pluralName": "contact-uses",
-    "displayName": "Contact-Us"
+    "displayName": "Contact-Us",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,12 +24,38 @@
       "type": "email",
       "required": true
     },
-    "telephone": {
+    "phone_number": {
       "type": "biginteger",
       "required": true
     },
-    "Description": {
-      "type": "richtext"
+    "eventSelection": {
+      "type": "customField",
+      "options": [
+        "Bride Abu Dhabi",
+        "Bride Dhabi"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "title": {
+      "type": "string"
+    },
+    "company_name": {
+      "type": "string"
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "country_of_residence": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "nature_of_business": {
+      "type": "string"
+    },
+    "other_nature_of_business": {
+      "type": "string"
     }
   }
 }
