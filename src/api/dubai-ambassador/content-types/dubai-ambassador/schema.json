@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "dubai_ambassadors",
+  "info": {
+    "singularName": "dubai-ambassador",
+    "pluralName": "dubai-ambassadors",
+    "displayName": "Dubai Ambassadors"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "gallery": {
+      "displayName": "gallery",
+      "type": "component",
+      "repeatable": true,
+      "component": "gallery.gallery"
+    }
+  }
+}
