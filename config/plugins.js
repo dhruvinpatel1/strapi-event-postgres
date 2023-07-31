@@ -56,6 +56,7 @@ module.exports = ({ env }) => ({
           { contentType: "api::home-page.home-page", maxAge: 60*60*100 },
           { contentType: "api::footer.footer", maxAge: 60*60*100 },
           { contentType: "api::page.page", maxAge: 60*60*100 },
+          { contentType: "api::dubai-ambassador.dubai-ambassador", maxAge: 60*60*100 },
         ],
       },
     },
